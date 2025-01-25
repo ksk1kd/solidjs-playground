@@ -5,11 +5,13 @@ import { ControlFlow } from './components/ControlFlow'
 import { DerivedSignal } from './components/DerivedSignal'
 import { Effect } from './components/Effect'
 import { FormInputBinding } from './components/FormInputBinding'
+import { Store } from './components/Store'
 
 function App() {
   return (
     <>
       <div class="container">
+        <Store />
         <Context />
         <DerivedSignal />
         <Effect />
